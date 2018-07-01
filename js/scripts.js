@@ -1,15 +1,24 @@
 //Business logic
-for var = y (y =1; y<= 100; y++){
-var userInput = "";
-if (y%3===0) = userInput + "Ping"
-if (y%5===0) = userInput + "Pong"
-if (y%15===0)= userInput + "PingPong"
-
+//Input the PingPong function
+function PingPong() {
+for (var i = 1; i <= 100; i++) {
+  if ( i % 15 === 0 ) {
+    console.log(‘PingPong’);//if the number is divisible by 15, print out a range and include PingPong
+  }
+  else if ( i % 5 === 0 ) {
+    console.log(‘Pong’);//if function is divisible by 5, print out a range and include Pong
+  }
+  else if ( i % 3 ===  0 ) {
+    console.log(‘Ping’);
+  }
+  else {
+    console.log(i);
+  }
 }
 
-var userInput=$("replies-Input").val()
+return replies;
 
-
+event.preventDefault();
 
 
 
@@ -18,6 +27,6 @@ var userInput=$("replies-Input").val()
 $(document).ready(function){
   $("#replies-form").submit(function(event){
     event.preventDefault()
-    $("#reply").append()
+    $("#replies").append(<li>)
   })
 }
