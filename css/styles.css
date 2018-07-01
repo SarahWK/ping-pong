@@ -5,3 +5,33 @@
 #rules{
 background-color: #dfc12a;
 }
+/* the table specs */
+.wrapper{
+  margin:0 auto;
+  width:600px;
+  height:300px;
+  border-bottom:30px solid green;
+  animation-direction: reverse;
+}
+.clear{
+  clear:both;
+}
+/* the ball specs */
+.ball{
+  float:left;
+  width:50px;
+  height:50px;
+  background:white;
+  border-radius:50%;
+  margin-top:30px;
+  -webkit-animation:bounce_ball 3s linear infinite;
+}
+/* the animation code */
+@-webkit-keyframes bounce_ball{
+  0% {margin-top:30px;}
+  25%{margin-left:250px;margin-top:252px}
+  50%{margin-left:490px;margin-top:30px;}
+  75%{margin-left:250px;margin-top:252px}
+  100%{margin-left:0px;margin-top:30px}
+
+}
