@@ -35,3 +35,6 @@ background-color: #dfc12a;
   100%{margin-left:0px;margin-top:30px}
 
 }
+.jumbotron{
+  background-color: green;
+}
